@@ -37,7 +37,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item ">
-            <a href="#" class="nav-link ">
+            <a href="<?php echo site_url('home')?>" class="nav-link ">
 							<i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Home                
@@ -55,19 +55,19 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/tables/simple.html" class="nav-link">
+                <a href="<?php echo site_url('product')?>" class="nav-link">
 									<i class="fas fa-boxes nav-icon"></i>
                   <p>List Product</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/tables/data.html" class="nav-link">
+                <a href="<?php echo site_url('product/add')?>" class="nav-link">
 									<i class="fas fa-box-open nav-icon"></i>
                   <p>Add Product</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/tables/jsgrid.html" class="nav-link">
+                <a href="" class="nav-link">
 									<i class="fas fa-box-open nav-icon"></i>
                   <p>Category</p>
                 </a>

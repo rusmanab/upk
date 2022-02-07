@@ -8,7 +8,7 @@ class Home extends CI_Controller{
 
 	public function index()
 	{
-		$view = "pages/user/tambah";
+		$view = "home/index";
 		$this->template->display($view);
 	}
 }
